@@ -16,6 +16,9 @@ AWS_services_list.append ("ElasticBeanstalk")
 #Print the list
 print(AWS_services_list)
 
+#Print the list length
+print(len(AWS_services_list))
+
 #Insert items to the list
 AWS_services_list.insert (3, "CodePipeline")
 AWS_services_list.insert (6, "CodeStar")
@@ -23,11 +26,21 @@ AWS_services_list.insert (6, "CodeStar")
 #Print updated list
 print(AWS_services_list)
 
+#Print the updated list length
+print(len(AWS_services_list))
+
 #Print the first item in the list
 print(AWS_services_list[0])
 
 #Print the 5th item in the list
 print(AWS_services_list[4])
 
+#Delete specified item from list
+del AWS_services_list[5]
 
+#Print updated list
+print(AWS_services_list)
+
+#Print the updated list length
+print(len(AWS_services_list))
 
