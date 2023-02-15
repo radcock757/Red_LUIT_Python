@@ -29,6 +29,8 @@ for file in dir_list:
         'File Name' : file,
         'File Size' : file_size.st_size
     }
+    #Append list with dictionary
     files_list.append(my_dictionary)
 
-    print(my_dictionary)
+#Print the updated list
+print(*files_list, sep = "\n")
